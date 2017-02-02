@@ -1,3 +1,8 @@
+---
+layout: post
+title: Mitmachen
+---
+
 # Mitmachen
 
 Unsere Arbeit ist vielseitig und erstreckt sich von organisatorischen Aufgaben bis hin zum Unterrichten der deutschen Sprache.
