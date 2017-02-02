@@ -42,3 +42,13 @@ a:focus {
   color: #b2dfdb;
 }
 
+a.nav-link {
+  color: #b2dfdb;
+}
+a.navbar-brand,
+a.navbar-brand:hover,
+a.navbar-brand:focus,
+a.nav-link:hover,
+a.nav-link:focus {
+  color: #ffffff;
+}
