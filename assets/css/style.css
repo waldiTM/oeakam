@@ -46,8 +46,8 @@ a:focus {
   color: #b2dfdb;
 }
 .site-quote:before {
-  color: #ffffff;
   content: open-quote;
+  font-size: 2rem;
 }
 
 
