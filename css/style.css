@@ -37,9 +37,13 @@ a:focus {
   font-size: 2rem;
   font-weight: normal;
 }
-.site-description {
+.site-quote {
   font-size: 1.1rem;
   color: #b2dfdb;
+}
+.site-quote:before {
+  color: #ffffff;
+  content: open-quote;
 }
 
 a.nav-link {
