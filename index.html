@@ -5,12 +5,17 @@
   {% include _head.html %}
 
   <body>
-    <header>
-      <div class="site-header">
-        <div class="container">
-          <nav class="nav site-nav">
-            <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-          </nav>
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav">
+          <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        </nav>
+        <h1 class="site-title">{{ site.title }}</h1>
+        <p class="lead blog-description"><blockquote>Wir müssen keine perfekten Helden sein,
+        aber wir haben die Pflicht zu handeln,
+        selbst wenn es scheint,
+        dass wir mit einem Löffel den Ozean ausschöpfen.</blockquote>
+        (Roman Herzog)</p>
       </div>
     </header>
 
