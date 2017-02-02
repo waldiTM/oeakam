@@ -6,19 +6,7 @@
 
   <body>
     <header class="site-header">
-      <nav class="navbar navbar-toggleable-md">
-        <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-        <ul class="navbar-nav">
-        {% for link in site.data.navigation %}
-          {% if link.href == page.dir %}
-            {% assign class = "current" %}
-          {% else %}
-            {% assign class = "normal" %}
-          {% endif %}
-          <li class="nav-item"><a class="nav-link" href="{{ link.href | relative_url }}">{{ link.title }}</a></li>
-        {% endfor %}
-        </ul>
-      </nav>
+      {% include header_navbar.html %}
       <div class="container">
         <h1 class="site-title">{{ site.title }}</h1>
         <blockquote class="site-quote">Wir müssen keine perfekten Helden sein, aber wir haben die Pflicht zu handeln, selbst wenn es scheint, dass wir mit einem Löffel den Ozean ausschöpfen. (Roman Herzog)
