@@ -27,23 +27,34 @@ a:focus {
 
 .site-header {
   background-color: #009688;
-  padding: 3rem 0 1.25rem;
+  padding-bottom: 1.25rem;
   margin-bottom: 2rem;
-  border-bottom: .05rem solid #b6b6b6;
+}
+.navbar {
+  padding-bottom: 2rem;
 }
 .site-title {
   color: #ffffff;
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: normal;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 .site-quote {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #b2dfdb;
 }
 .site-quote:before {
   color: #ffffff;
   content: open-quote;
+}
+
+
+@media (min-width: 40em) {
+  .site-title {
+    font-size: 3.5rem;
+  }
 }
 
 a.nav-link {
