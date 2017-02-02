@@ -7,8 +7,18 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <nav class="nav">
+        <nav class="navbar">
           <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+          <ul class="nav navbar-nav pull-xs-right">
+          {% for link in site.data.navigation %}
+            {% if link.href == page.dir %}
+              {% assign class = "current" %}
+            {% else %}
+              {% assign class = "normal" %}
+            {% endif %}
+            <li><a href="{{ link.href | relative_url }}">{{ link.title }}</a></li>
+          {% endfor %}
+          </ul>
         </nav>
         <h1 class="site-title">{{ site.title }}</h1>
         <p class="lead blog-description"><blockquote>Wir müssen keine perfekten Helden sein,
