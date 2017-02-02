@@ -1,0 +1,42 @@
+body {
+  font-family: serif;
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #212121;
+}
+
+a:link {
+  color: #00796b;
+}
+
+a:hover,
+a:focus {
+  color: #536dfe;
+}
+
+.site-header {
+  background-color: #009688;
+  padding: 3rem 0 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #b6b6b6;
+}
+.site-title {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.site-description {
+  font-size: 1.1rem;
+  color: #b2dfdb;
+}
+
