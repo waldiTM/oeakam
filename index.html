@@ -8,7 +8,10 @@
     <header class="site-header">
       {% include header_navbar.html %}
       <div class="container">
-        <h1 class="site-title">{{ site.title }}</h1>
+        <div class="site-title">
+          <img src="{{ "/assets/img/logo.jpg" | relative_url }}" height="150">
+          <h1>{{ site.title }}</h1>
+        </div>
         <blockquote class="site-quote">Wir müssen keine perfekten Helden sein, aber wir haben die Pflicht zu handeln, selbst wenn es scheint, dass wir mit einem Löffel den Ozean ausschöpfen. (Roman Herzog)
         </blockquote>
       </div>
