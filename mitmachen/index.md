@@ -1,6 +1,7 @@
 # Mitmachen
 
 Unsere Arbeit ist vielseitig und erstreckt sich von organisatorischen Aufgaben bis hin zum Unterrichten der deutschen Sprache.
+
 * Sie möchten uns beim Deutschkurs unterstützen?
 * Sie sprechen Französisch, Arabisch oder Englisch oder kennen jemand, der diese Sprachen spricht?
 * Sie können gut organisieren?
