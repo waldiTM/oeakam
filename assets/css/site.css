@@ -16,6 +16,10 @@ h6, .h6 {
   color: #212121;
 }
 
+.site-header h1 {
+  color: #ffffff;
+}
+
 a:link {
   color: #00796b;
 }
@@ -34,7 +38,6 @@ a:focus {
   padding-bottom: 2rem;
 }
 .site-title {
-  color: #ffffff;
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: normal;
