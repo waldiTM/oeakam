@@ -1,5 +1,5 @@
 <nav class="navbar navbar-toggleable-md">
-  <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+  <a class="navbar-brand mr-auto" href="{{ "/" | relative_url }}">{{ site.title }}</a>
   <ul class="navbar-nav">
   {% for link in site.data.navigation %}
     {% if link.href == page.dir %}
