@@ -52,6 +52,11 @@ a:focus {
   font-size: 2rem;
 }
 
+.index-header {
+  background: center center no-repeat;
+  background-image: url('{{ "/assets/img/background-moeglingen.jpg" | relative_url }}');
+  background-size: cover;
+}
 
 @media (min-width: 40em) {
   .site-title {
